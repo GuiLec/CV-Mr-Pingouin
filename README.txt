@@ -2,7 +2,7 @@ README
 
 This is an online CV for Mister Pingouin.
 It has been developed using HTML and CSS.
-Yo !
+Yahoo !
 
 Licence :
 Copyright: glecallier@yahoo.com
