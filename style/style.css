@@ -1,0 +1,98 @@
+html, body
+{
+    background-image: url("../images/banquise.jpg");
+    height: 100%;
+}
+
+#blockpage
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#liseret
+{
+    height: 120%;
+    width: 20%;
+    background: grey;
+    margin: -10px;
+    border: 2px solid black;
+}
+
+header
+{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#corpus
+{
+    margin-left : 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#corpus > article
+{
+    width: 30%;
+}
+
+.idImage
+{
+    border: 2px solid #ffff66;    
+}
+
+p, li, h1, h2
+{
+    color: #ffff66;
+    text-shadow: 2px 2px 2px black;
+}
+
+h1
+{
+    border: 2px solid #ffff66;
+    font-size: 3em;
+    margin : 5%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+h1, h1+p, .idImage
+{
+    text-align: center;
+}
+
+strong
+{
+    color: #66ffff;
+   text-shadow: 2px 2px 2px black;
+}
+
+@media all and (max-width: 1024px)
+{
+    #liseret{
+        display: none;
+    }
+    #corpus
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #corpus > article
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
